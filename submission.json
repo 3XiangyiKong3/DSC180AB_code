@@ -1,0 +1,5 @@
+{
+    "dockerhub-id": "xiangyikong/dsc180a:latest",
+    "train": "python3 dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_cov.yaml",
+    "build-script": "./test.sh"
+}

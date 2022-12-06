@@ -10,6 +10,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-# COPY . /DSC180A_MA5
+USER root
 
-# CMD python3 dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_cov.yaml
+CMD ["bin/bash"]

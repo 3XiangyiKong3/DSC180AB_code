@@ -1,4 +1,7 @@
 # DSC180A_MA5
+
+Result looks like this after running the flu_forecast_result_plot notebook in the notebook folder
+![uncertainty_quantification](./references/washington_flu.png)
  
 Requirements
 ```bash

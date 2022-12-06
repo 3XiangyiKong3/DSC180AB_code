@@ -1,8 +1,8 @@
 # DSC180A_Q1_Project
 DeepGLEAM on COVID-19 and Flu 
-## Model output
+## Prediction
 Four weeks ahead Flu prediction residual between groundtruth and simulation for 1 state
-![uncertainty_quantification](./references/washington_flu.png)
+![uncertainty_quantification_flu_residual_washingtion](./references/washington_flu.png)
 
 ## Setup, Model training and Model Testing
  

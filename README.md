@@ -1,7 +1,9 @@
 # DSC180A_Q1_Project
 
-Result looks like this after running the flu_forecast_result_plot notebook in the notebook folder
+## Model output
 ![uncertainty_quantification](./references/washington_flu.png)
+
+## Setup, Model training and Model Testing
  
 1. Requirements
 ```bash

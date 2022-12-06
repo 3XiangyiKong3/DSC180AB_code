@@ -12,7 +12,7 @@ Four weeks ahead Flu prediction residual between groundtruth and simulation for 
 ```
 2. Train models and make prediction (Model already trainned in the submission)
 ```bash
->>> python3 dcrnn_train_pytorch.py --config_filename=data/model/dcrnn_cov.yaml
+>>> python3 run.py --config_filename=data/model/dcrnn_cov.yaml
 ```
 3. For Test, run the following command
 ```bash

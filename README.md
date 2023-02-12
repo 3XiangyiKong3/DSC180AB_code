@@ -4,6 +4,9 @@ DeepGLEAM on COVID-19 and Flu
 Four weeks ahead Flu prediction residual between groundtruth and simulation for 1 state
 ![uncertainty_quantification_flu_residual_washingtion](./references/washington_flu.png)
 
+## Result Comparison w/o Interpolation with GLEAM 
+![MAE result](./references/Result_Comparison.png)
+
 ## Setup, Model training and Model Testing
  
 1. Requirements

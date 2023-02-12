@@ -1,4 +1,4 @@
-# DSC180A_Q1_Project
+# DSC180_Project
 DeepGLEAM on COVID-19 and Flu 
 ## Prediction
 Four weeks ahead Flu prediction residual between groundtruth and simulation for 1 state

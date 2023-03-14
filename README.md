@@ -1,11 +1,18 @@
 # DSC180_Project
 DeepGLEAM on Flu 
-## Prediction
-Four weeks ahead Flu prediction residual between groundtruth and simulation for 1 state
-![uncertainty_quantification_flu_residual_washingtion](./references/10_states_4_weeks_prediction.png.png)
 
-## Result Comparison w/o Interpolation on DeepGLEAM, MLP and GLEAM
-![MAE result](./references/Combied_result.png.png)
+## GLEAM Prediction before and after Interpolation
+![GLEAM Before Interpolation] (./references/beforeinterp.png)
+![GLEAM After Interpolation] (./references/afterinterp.png)
+
+## ARIMA and ETS
+
+## Prediction
+Four weeks ahead Flu prediction residual between groundtruth and prediction for 10 states
+![uncertainty_quantification_flu_residual_washingtion](./references/10_states_4_weeks_prediction.png)
+
+## Result Comparison 
+![MAE result](./references/Combied_result.png)
 
 ## Setup, Model training and Model Testing
  

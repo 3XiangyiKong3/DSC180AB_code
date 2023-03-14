@@ -1,12 +1,13 @@
-# DSC180_Project
-DeepGLEAM on Flu 
+# Optimization of DeepGLEAM on Flu Forecasting Time-Series Data
+The current COVID-19 pandemic and common flu highlight the importance of time-sensitive information in biomedical institutions, politics, and economics. The application of data science in creating real-time predictive models is crucial to help researchers and world leaders better understand disease spread and take preventative measures.
 
 ## GLEAM Prediction before and after Interpolation
-![GLEAM Before Interpolation] (./references/beforeinterp.png)
-![GLEAM After Interpolation] (./references/afterinterp.png)
+![GLEAM Before Interpolation](./references/beforeinterp.png)
+![GLEAM After Interpolation](./references/afterinterp.png)
 
 ## ARIMA and ETS
-
+![ARIMA](./references/arima_validation_plot1.png)
+![ETS](./references/ets_validation_plot1.png)
 ## Prediction
 Four weeks ahead Flu prediction residual between groundtruth and prediction for 10 states
 ![uncertainty_quantification_flu_residual_washingtion](./references/10_states_4_weeks_prediction.png)

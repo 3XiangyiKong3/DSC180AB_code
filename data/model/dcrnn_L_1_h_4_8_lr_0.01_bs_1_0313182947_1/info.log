@@ -1,0 +1,3 @@
+2023-03-13 18:29:47,422 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/dcrnn_L_1_h_4_8_lr_0.01_bs_1_0313182947_1/
+2023-03-13 18:29:47,427 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2023-03-13 18:29:47,430 - model.pytorch.dcrnn_supervisor - INFO - Loaded model at 269

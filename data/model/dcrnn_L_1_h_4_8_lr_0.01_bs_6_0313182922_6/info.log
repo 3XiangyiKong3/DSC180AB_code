@@ -1,0 +1,1076 @@
+2023-03-13 18:29:22,080 - model.pytorch.dcrnn_supervisor - INFO - Log directory: data/model/dcrnn_L_1_h_4_8_lr_0.01_bs_6_0313182922_6/
+2023-03-13 18:29:22,085 - model.pytorch.dcrnn_supervisor - INFO - Model created
+2023-03-13 18:29:22,085 - model.pytorch.dcrnn_supervisor - INFO - Start training ...
+2023-03-13 18:29:22,085 - model.pytorch.dcrnn_supervisor - INFO - num_batches:1
+2023-03-13 18:29:22,087 - model.pytorch.dcrnn_supervisor - INFO - Total trainable parameters 1131
+2023-03-13 18:29:22,089 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,089 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,092 - model.pytorch.dcrnn_supervisor - INFO - Epoch [0/1000] (1) train_mae: 48.1122, val_mae: 47.7820, lr: 0.010000, 0.0s
+2023-03-13 18:29:22,095 - model.pytorch.dcrnn_supervisor - INFO - Epoch [0/1000] (1) train_mae: 48.1122, test_mae: 48.0625,  lr: 0.010000, 0.0s
+2023-03-13 18:29:22,095 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 0
+2023-03-13 18:29:22,095 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from inf to 47.7820, saving to week15_shuffled/models_seed6/epo0.tar
+2023-03-13 18:29:22,099 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,099 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,102 - model.pytorch.dcrnn_supervisor - INFO - Epoch [1/1000] (2) train_mae: 45.8984, val_mae: 44.5824, lr: 0.010000, 0.0s
+2023-03-13 18:29:22,105 - model.pytorch.dcrnn_supervisor - INFO - Epoch [1/1000] (2) train_mae: 45.8984, test_mae: 45.2025,  lr: 0.010000, 0.0s
+2023-03-13 18:29:22,105 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 1
+2023-03-13 18:29:22,105 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 47.7820 to 44.5824, saving to week15_shuffled/models_seed6/epo1.tar
+2023-03-13 18:29:22,109 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,109 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,112 - model.pytorch.dcrnn_supervisor - INFO - Epoch [2/1000] (3) train_mae: 43.8278, val_mae: 41.6562, lr: 0.010000, 0.0s
+2023-03-13 18:29:22,115 - model.pytorch.dcrnn_supervisor - INFO - Epoch [2/1000] (3) train_mae: 43.8278, test_mae: 42.5635,  lr: 0.010000, 0.0s
+2023-03-13 18:29:22,115 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 2
+2023-03-13 18:29:22,115 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 44.5824 to 41.6562, saving to week15_shuffled/models_seed6/epo2.tar
+2023-03-13 18:29:22,119 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,119 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,122 - model.pytorch.dcrnn_supervisor - INFO - Epoch [3/1000] (4) train_mae: 41.8631, val_mae: 38.9810, lr: 0.010000, 0.0s
+2023-03-13 18:29:22,125 - model.pytorch.dcrnn_supervisor - INFO - Epoch [3/1000] (4) train_mae: 41.8631, test_mae: 40.1377,  lr: 0.010000, 0.0s
+2023-03-13 18:29:22,125 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 3
+2023-03-13 18:29:22,126 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 41.6562 to 38.9810, saving to week15_shuffled/models_seed6/epo3.tar
+2023-03-13 18:29:22,130 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,130 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,133 - model.pytorch.dcrnn_supervisor - INFO - Epoch [4/1000] (5) train_mae: 39.9763, val_mae: 36.4686, lr: 0.010000, 0.0s
+2023-03-13 18:29:22,135 - model.pytorch.dcrnn_supervisor - INFO - Epoch [4/1000] (5) train_mae: 39.9763, test_mae: 37.8772,  lr: 0.010000, 0.0s
+2023-03-13 18:29:22,136 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 4
+2023-03-13 18:29:22,136 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 38.9810 to 36.4686, saving to week15_shuffled/models_seed6/epo4.tar
+2023-03-13 18:29:22,140 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,140 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,143 - model.pytorch.dcrnn_supervisor - INFO - Epoch [5/1000] (6) train_mae: 38.1277, val_mae: 34.0500, lr: 0.010000, 0.0s
+2023-03-13 18:29:22,146 - model.pytorch.dcrnn_supervisor - INFO - Epoch [5/1000] (6) train_mae: 38.1277, test_mae: 35.6968,  lr: 0.010000, 0.0s
+2023-03-13 18:29:22,146 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 5
+2023-03-13 18:29:22,146 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 36.4686 to 34.0500, saving to week15_shuffled/models_seed6/epo5.tar
+2023-03-13 18:29:22,150 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,150 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,153 - model.pytorch.dcrnn_supervisor - INFO - Epoch [6/1000] (7) train_mae: 36.2823, val_mae: 31.7024, lr: 0.010000, 0.0s
+2023-03-13 18:29:22,156 - model.pytorch.dcrnn_supervisor - INFO - Epoch [6/1000] (7) train_mae: 36.2823, test_mae: 33.5800,  lr: 0.010000, 0.0s
+2023-03-13 18:29:22,157 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 6
+2023-03-13 18:29:22,157 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 34.0500 to 31.7024, saving to week15_shuffled/models_seed6/epo6.tar
+2023-03-13 18:29:22,161 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,161 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,164 - model.pytorch.dcrnn_supervisor - INFO - Epoch [7/1000] (8) train_mae: 34.4252, val_mae: 29.4572, lr: 0.010000, 0.0s
+2023-03-13 18:29:22,167 - model.pytorch.dcrnn_supervisor - INFO - Epoch [7/1000] (8) train_mae: 34.4252, test_mae: 31.5415,  lr: 0.010000, 0.0s
+2023-03-13 18:29:22,167 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 7
+2023-03-13 18:29:22,167 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 31.7024 to 29.4572, saving to week15_shuffled/models_seed6/epo7.tar
+2023-03-13 18:29:22,171 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,171 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,174 - model.pytorch.dcrnn_supervisor - INFO - Epoch [8/1000] (9) train_mae: 32.5400, val_mae: 27.3550, lr: 0.010000, 0.0s
+2023-03-13 18:29:22,177 - model.pytorch.dcrnn_supervisor - INFO - Epoch [8/1000] (9) train_mae: 32.5400, test_mae: 29.6358,  lr: 0.010000, 0.0s
+2023-03-13 18:29:22,178 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 8
+2023-03-13 18:29:22,178 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 29.4572 to 27.3550, saving to week15_shuffled/models_seed6/epo8.tar
+2023-03-13 18:29:22,181 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,181 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,184 - model.pytorch.dcrnn_supervisor - INFO - Epoch [9/1000] (10) train_mae: 30.6577, val_mae: 25.5494, lr: 0.010000, 0.0s
+2023-03-13 18:29:22,187 - model.pytorch.dcrnn_supervisor - INFO - Epoch [9/1000] (10) train_mae: 30.6577, test_mae: 27.9486,  lr: 0.010000, 0.0s
+2023-03-13 18:29:22,187 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 9
+2023-03-13 18:29:22,187 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 27.3550 to 25.5494, saving to week15_shuffled/models_seed6/epo9.tar
+2023-03-13 18:29:22,191 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,191 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,194 - model.pytorch.dcrnn_supervisor - INFO - Epoch [10/1000] (11) train_mae: 28.8351, val_mae: 24.1662, lr: 0.010000, 0.0s
+2023-03-13 18:29:22,196 - model.pytorch.dcrnn_supervisor - INFO - Epoch [10/1000] (11) train_mae: 28.8351, test_mae: 26.6997,  lr: 0.010000, 0.0s
+2023-03-13 18:29:22,197 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 10
+2023-03-13 18:29:22,197 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 25.5494 to 24.1662, saving to week15_shuffled/models_seed6/epo10.tar
+2023-03-13 18:29:22,201 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,201 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,204 - model.pytorch.dcrnn_supervisor - INFO - Epoch [11/1000] (12) train_mae: 27.1647, val_mae: 23.1970, lr: 0.010000, 0.0s
+2023-03-13 18:29:22,206 - model.pytorch.dcrnn_supervisor - INFO - Epoch [11/1000] (12) train_mae: 27.1647, test_mae: 25.8253,  lr: 0.010000, 0.0s
+2023-03-13 18:29:22,207 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 11
+2023-03-13 18:29:22,207 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 24.1662 to 23.1970, saving to week15_shuffled/models_seed6/epo11.tar
+2023-03-13 18:29:22,211 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,211 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,213 - model.pytorch.dcrnn_supervisor - INFO - Epoch [12/1000] (13) train_mae: 25.6604, val_mae: 22.4811, lr: 0.000100, 0.0s
+2023-03-13 18:29:22,216 - model.pytorch.dcrnn_supervisor - INFO - Epoch [12/1000] (13) train_mae: 25.6604, test_mae: 25.1879,  lr: 0.000100, 0.0s
+2023-03-13 18:29:22,216 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 12
+2023-03-13 18:29:22,216 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 23.1970 to 22.4811, saving to week15_shuffled/models_seed6/epo12.tar
+2023-03-13 18:29:22,220 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,220 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,222 - model.pytorch.dcrnn_supervisor - INFO - Epoch [13/1000] (14) train_mae: 24.3488, val_mae: 22.4081, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,225 - model.pytorch.dcrnn_supervisor - INFO - Epoch [13/1000] (14) train_mae: 24.3488, test_mae: 25.1227,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,225 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 13
+2023-03-13 18:29:22,225 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 22.4811 to 22.4081, saving to week15_shuffled/models_seed6/epo13.tar
+2023-03-13 18:29:22,229 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,229 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,232 - model.pytorch.dcrnn_supervisor - INFO - Epoch [14/1000] (15) train_mae: 24.2226, val_mae: 22.3282, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,234 - model.pytorch.dcrnn_supervisor - INFO - Epoch [14/1000] (15) train_mae: 24.2226, test_mae: 25.0476,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,234 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 14
+2023-03-13 18:29:22,235 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 22.4081 to 22.3282, saving to week15_shuffled/models_seed6/epo14.tar
+2023-03-13 18:29:22,238 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,238 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,241 - model.pytorch.dcrnn_supervisor - INFO - Epoch [15/1000] (16) train_mae: 24.0924, val_mae: 22.2437, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,243 - model.pytorch.dcrnn_supervisor - INFO - Epoch [15/1000] (16) train_mae: 24.0924, test_mae: 24.9653,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,244 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 15
+2023-03-13 18:29:22,244 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 22.3282 to 22.2437, saving to week15_shuffled/models_seed6/epo15.tar
+2023-03-13 18:29:22,248 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,248 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,250 - model.pytorch.dcrnn_supervisor - INFO - Epoch [16/1000] (17) train_mae: 23.9591, val_mae: 22.1546, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,253 - model.pytorch.dcrnn_supervisor - INFO - Epoch [16/1000] (17) train_mae: 23.9591, test_mae: 24.8771,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,253 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 16
+2023-03-13 18:29:22,253 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 22.2437 to 22.1546, saving to week15_shuffled/models_seed6/epo16.tar
+2023-03-13 18:29:22,257 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,257 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,260 - model.pytorch.dcrnn_supervisor - INFO - Epoch [17/1000] (18) train_mae: 23.8246, val_mae: 22.0614, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,262 - model.pytorch.dcrnn_supervisor - INFO - Epoch [17/1000] (18) train_mae: 23.8246, test_mae: 24.7829,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,263 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 17
+2023-03-13 18:29:22,263 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 22.1546 to 22.0614, saving to week15_shuffled/models_seed6/epo17.tar
+2023-03-13 18:29:22,267 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,267 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,269 - model.pytorch.dcrnn_supervisor - INFO - Epoch [18/1000] (19) train_mae: 23.6891, val_mae: 21.9656, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,272 - model.pytorch.dcrnn_supervisor - INFO - Epoch [18/1000] (19) train_mae: 23.6891, test_mae: 24.6853,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,273 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 18
+2023-03-13 18:29:22,273 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 22.0614 to 21.9656, saving to week15_shuffled/models_seed6/epo18.tar
+2023-03-13 18:29:22,277 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,277 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,280 - model.pytorch.dcrnn_supervisor - INFO - Epoch [19/1000] (20) train_mae: 23.5528, val_mae: 21.8684, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,282 - model.pytorch.dcrnn_supervisor - INFO - Epoch [19/1000] (20) train_mae: 23.5528, test_mae: 24.5852,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,283 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 19
+2023-03-13 18:29:22,283 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 21.9656 to 21.8684, saving to week15_shuffled/models_seed6/epo19.tar
+2023-03-13 18:29:22,287 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,287 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,290 - model.pytorch.dcrnn_supervisor - INFO - Epoch [20/1000] (21) train_mae: 23.4159, val_mae: 21.7692, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,292 - model.pytorch.dcrnn_supervisor - INFO - Epoch [20/1000] (21) train_mae: 23.4159, test_mae: 24.4830,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,293 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 20
+2023-03-13 18:29:22,293 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 21.8684 to 21.7692, saving to week15_shuffled/models_seed6/epo20.tar
+2023-03-13 18:29:22,297 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,297 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,299 - model.pytorch.dcrnn_supervisor - INFO - Epoch [21/1000] (22) train_mae: 23.2778, val_mae: 21.6690, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,302 - model.pytorch.dcrnn_supervisor - INFO - Epoch [21/1000] (22) train_mae: 23.2778, test_mae: 24.3789,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,303 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 21
+2023-03-13 18:29:22,303 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 21.7692 to 21.6690, saving to week15_shuffled/models_seed6/epo21.tar
+2023-03-13 18:29:22,306 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,306 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,309 - model.pytorch.dcrnn_supervisor - INFO - Epoch [22/1000] (23) train_mae: 23.1400, val_mae: 21.5695, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,311 - model.pytorch.dcrnn_supervisor - INFO - Epoch [22/1000] (23) train_mae: 23.1400, test_mae: 24.2737,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,312 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 22
+2023-03-13 18:29:22,312 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 21.6690 to 21.5695, saving to week15_shuffled/models_seed6/epo22.tar
+2023-03-13 18:29:22,316 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,316 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,318 - model.pytorch.dcrnn_supervisor - INFO - Epoch [23/1000] (24) train_mae: 23.0041, val_mae: 21.4725, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,321 - model.pytorch.dcrnn_supervisor - INFO - Epoch [23/1000] (24) train_mae: 23.0041, test_mae: 24.1681,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,321 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 23
+2023-03-13 18:29:22,321 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 21.5695 to 21.4725, saving to week15_shuffled/models_seed6/epo23.tar
+2023-03-13 18:29:22,325 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,325 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,328 - model.pytorch.dcrnn_supervisor - INFO - Epoch [24/1000] (25) train_mae: 22.8690, val_mae: 21.3754, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,330 - model.pytorch.dcrnn_supervisor - INFO - Epoch [24/1000] (25) train_mae: 22.8690, test_mae: 24.0625,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,330 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 24
+2023-03-13 18:29:22,330 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 21.4725 to 21.3754, saving to week15_shuffled/models_seed6/epo24.tar
+2023-03-13 18:29:22,334 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,334 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,337 - model.pytorch.dcrnn_supervisor - INFO - Epoch [25/1000] (26) train_mae: 22.7344, val_mae: 21.2781, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,339 - model.pytorch.dcrnn_supervisor - INFO - Epoch [25/1000] (26) train_mae: 22.7344, test_mae: 23.9579,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,340 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 25
+2023-03-13 18:29:22,340 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 21.3754 to 21.2781, saving to week15_shuffled/models_seed6/epo25.tar
+2023-03-13 18:29:22,343 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,343 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,346 - model.pytorch.dcrnn_supervisor - INFO - Epoch [26/1000] (27) train_mae: 22.6003, val_mae: 21.1813, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,348 - model.pytorch.dcrnn_supervisor - INFO - Epoch [26/1000] (27) train_mae: 22.6003, test_mae: 23.8537,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,349 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 26
+2023-03-13 18:29:22,349 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 21.2781 to 21.1813, saving to week15_shuffled/models_seed6/epo26.tar
+2023-03-13 18:29:22,353 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,353 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,355 - model.pytorch.dcrnn_supervisor - INFO - Epoch [27/1000] (28) train_mae: 22.4671, val_mae: 21.0855, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,358 - model.pytorch.dcrnn_supervisor - INFO - Epoch [27/1000] (28) train_mae: 22.4671, test_mae: 23.7516,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,358 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 27
+2023-03-13 18:29:22,358 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 21.1813 to 21.0855, saving to week15_shuffled/models_seed6/epo27.tar
+2023-03-13 18:29:22,362 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,362 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,365 - model.pytorch.dcrnn_supervisor - INFO - Epoch [28/1000] (29) train_mae: 22.3353, val_mae: 20.9910, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,368 - model.pytorch.dcrnn_supervisor - INFO - Epoch [28/1000] (29) train_mae: 22.3353, test_mae: 23.6511,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,368 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 28
+2023-03-13 18:29:22,368 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 21.0855 to 20.9910, saving to week15_shuffled/models_seed6/epo28.tar
+2023-03-13 18:29:22,372 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,372 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,375 - model.pytorch.dcrnn_supervisor - INFO - Epoch [29/1000] (30) train_mae: 22.2058, val_mae: 20.9003, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,378 - model.pytorch.dcrnn_supervisor - INFO - Epoch [29/1000] (30) train_mae: 22.2058, test_mae: 23.5511,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,378 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 29
+2023-03-13 18:29:22,378 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 20.9910 to 20.9003, saving to week15_shuffled/models_seed6/epo29.tar
+2023-03-13 18:29:22,382 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,382 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,385 - model.pytorch.dcrnn_supervisor - INFO - Epoch [30/1000] (31) train_mae: 22.0780, val_mae: 20.8112, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,387 - model.pytorch.dcrnn_supervisor - INFO - Epoch [30/1000] (31) train_mae: 22.0780, test_mae: 23.4525,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,388 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 30
+2023-03-13 18:29:22,388 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 20.9003 to 20.8112, saving to week15_shuffled/models_seed6/epo30.tar
+2023-03-13 18:29:22,392 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,392 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,395 - model.pytorch.dcrnn_supervisor - INFO - Epoch [31/1000] (32) train_mae: 21.9527, val_mae: 20.7254, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,397 - model.pytorch.dcrnn_supervisor - INFO - Epoch [31/1000] (32) train_mae: 21.9527, test_mae: 23.3544,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,398 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 31
+2023-03-13 18:29:22,398 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 20.8112 to 20.7254, saving to week15_shuffled/models_seed6/epo31.tar
+2023-03-13 18:29:22,402 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,402 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,404 - model.pytorch.dcrnn_supervisor - INFO - Epoch [32/1000] (33) train_mae: 21.8300, val_mae: 20.6404, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,407 - model.pytorch.dcrnn_supervisor - INFO - Epoch [32/1000] (33) train_mae: 21.8300, test_mae: 23.2571,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,407 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 32
+2023-03-13 18:29:22,407 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 20.7254 to 20.6404, saving to week15_shuffled/models_seed6/epo32.tar
+2023-03-13 18:29:22,411 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,411 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,413 - model.pytorch.dcrnn_supervisor - INFO - Epoch [33/1000] (34) train_mae: 21.7088, val_mae: 20.5594, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,416 - model.pytorch.dcrnn_supervisor - INFO - Epoch [33/1000] (34) train_mae: 21.7088, test_mae: 23.1608,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,416 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 33
+2023-03-13 18:29:22,416 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 20.6404 to 20.5594, saving to week15_shuffled/models_seed6/epo33.tar
+2023-03-13 18:29:22,420 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,420 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,423 - model.pytorch.dcrnn_supervisor - INFO - Epoch [34/1000] (35) train_mae: 21.5878, val_mae: 20.4803, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,425 - model.pytorch.dcrnn_supervisor - INFO - Epoch [34/1000] (35) train_mae: 21.5878, test_mae: 23.0660,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,426 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 34
+2023-03-13 18:29:22,426 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 20.5594 to 20.4803, saving to week15_shuffled/models_seed6/epo34.tar
+2023-03-13 18:29:22,429 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,429 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,432 - model.pytorch.dcrnn_supervisor - INFO - Epoch [35/1000] (36) train_mae: 21.4670, val_mae: 20.4027, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,434 - model.pytorch.dcrnn_supervisor - INFO - Epoch [35/1000] (36) train_mae: 21.4670, test_mae: 22.9734,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,435 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 35
+2023-03-13 18:29:22,435 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 20.4803 to 20.4027, saving to week15_shuffled/models_seed6/epo35.tar
+2023-03-13 18:29:22,438 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,438 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,441 - model.pytorch.dcrnn_supervisor - INFO - Epoch [36/1000] (37) train_mae: 21.3467, val_mae: 20.3259, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,443 - model.pytorch.dcrnn_supervisor - INFO - Epoch [36/1000] (37) train_mae: 21.3467, test_mae: 22.8805,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,444 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 36
+2023-03-13 18:29:22,444 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 20.4027 to 20.3259, saving to week15_shuffled/models_seed6/epo36.tar
+2023-03-13 18:29:22,448 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,448 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,450 - model.pytorch.dcrnn_supervisor - INFO - Epoch [37/1000] (38) train_mae: 21.2267, val_mae: 20.2494, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,453 - model.pytorch.dcrnn_supervisor - INFO - Epoch [37/1000] (38) train_mae: 21.2267, test_mae: 22.7871,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,453 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 37
+2023-03-13 18:29:22,453 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 20.3259 to 20.2494, saving to week15_shuffled/models_seed6/epo37.tar
+2023-03-13 18:29:22,457 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,457 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,460 - model.pytorch.dcrnn_supervisor - INFO - Epoch [38/1000] (39) train_mae: 21.1078, val_mae: 20.1749, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,463 - model.pytorch.dcrnn_supervisor - INFO - Epoch [38/1000] (39) train_mae: 21.1078, test_mae: 22.6936,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,463 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 38
+2023-03-13 18:29:22,463 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 20.2494 to 20.1749, saving to week15_shuffled/models_seed6/epo38.tar
+2023-03-13 18:29:22,467 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,467 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,470 - model.pytorch.dcrnn_supervisor - INFO - Epoch [39/1000] (40) train_mae: 20.9908, val_mae: 20.1019, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,473 - model.pytorch.dcrnn_supervisor - INFO - Epoch [39/1000] (40) train_mae: 20.9908, test_mae: 22.6012,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,473 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 39
+2023-03-13 18:29:22,473 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 20.1749 to 20.1019, saving to week15_shuffled/models_seed6/epo39.tar
+2023-03-13 18:29:22,477 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,477 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,480 - model.pytorch.dcrnn_supervisor - INFO - Epoch [40/1000] (41) train_mae: 20.8740, val_mae: 20.0291, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,482 - model.pytorch.dcrnn_supervisor - INFO - Epoch [40/1000] (41) train_mae: 20.8740, test_mae: 22.5098,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,483 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 40
+2023-03-13 18:29:22,483 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 20.1019 to 20.0291, saving to week15_shuffled/models_seed6/epo40.tar
+2023-03-13 18:29:22,487 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,487 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,489 - model.pytorch.dcrnn_supervisor - INFO - Epoch [41/1000] (42) train_mae: 20.7577, val_mae: 19.9565, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,492 - model.pytorch.dcrnn_supervisor - INFO - Epoch [41/1000] (42) train_mae: 20.7577, test_mae: 22.4176,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,493 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 41
+2023-03-13 18:29:22,493 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 20.0291 to 19.9565, saving to week15_shuffled/models_seed6/epo41.tar
+2023-03-13 18:29:22,497 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,497 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,499 - model.pytorch.dcrnn_supervisor - INFO - Epoch [42/1000] (43) train_mae: 20.6418, val_mae: 19.8841, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,502 - model.pytorch.dcrnn_supervisor - INFO - Epoch [42/1000] (43) train_mae: 20.6418, test_mae: 22.3255,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,502 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 42
+2023-03-13 18:29:22,503 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 19.9565 to 19.8841, saving to week15_shuffled/models_seed6/epo42.tar
+2023-03-13 18:29:22,506 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,506 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,509 - model.pytorch.dcrnn_supervisor - INFO - Epoch [43/1000] (44) train_mae: 20.5274, val_mae: 19.8123, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,511 - model.pytorch.dcrnn_supervisor - INFO - Epoch [43/1000] (44) train_mae: 20.5274, test_mae: 22.2329,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,512 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 43
+2023-03-13 18:29:22,512 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 19.8841 to 19.8123, saving to week15_shuffled/models_seed6/epo43.tar
+2023-03-13 18:29:22,515 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,515 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,518 - model.pytorch.dcrnn_supervisor - INFO - Epoch [44/1000] (45) train_mae: 20.4138, val_mae: 19.7423, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,520 - model.pytorch.dcrnn_supervisor - INFO - Epoch [44/1000] (45) train_mae: 20.4138, test_mae: 22.1405,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,521 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 44
+2023-03-13 18:29:22,521 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 19.8123 to 19.7423, saving to week15_shuffled/models_seed6/epo44.tar
+2023-03-13 18:29:22,524 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,525 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,527 - model.pytorch.dcrnn_supervisor - INFO - Epoch [45/1000] (46) train_mae: 20.3011, val_mae: 19.6729, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,530 - model.pytorch.dcrnn_supervisor - INFO - Epoch [45/1000] (46) train_mae: 20.3011, test_mae: 22.0482,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,530 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 45
+2023-03-13 18:29:22,530 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 19.7423 to 19.6729, saving to week15_shuffled/models_seed6/epo45.tar
+2023-03-13 18:29:22,534 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,534 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,537 - model.pytorch.dcrnn_supervisor - INFO - Epoch [46/1000] (47) train_mae: 20.1907, val_mae: 19.6029, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,539 - model.pytorch.dcrnn_supervisor - INFO - Epoch [46/1000] (47) train_mae: 20.1907, test_mae: 21.9562,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,539 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 46
+2023-03-13 18:29:22,539 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 19.6729 to 19.6029, saving to week15_shuffled/models_seed6/epo46.tar
+2023-03-13 18:29:22,543 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,543 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,546 - model.pytorch.dcrnn_supervisor - INFO - Epoch [47/1000] (48) train_mae: 20.0822, val_mae: 19.5333, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,549 - model.pytorch.dcrnn_supervisor - INFO - Epoch [47/1000] (48) train_mae: 20.0822, test_mae: 21.8632,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,549 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 47
+2023-03-13 18:29:22,549 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 19.6029 to 19.5333, saving to week15_shuffled/models_seed6/epo47.tar
+2023-03-13 18:29:22,553 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,553 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,556 - model.pytorch.dcrnn_supervisor - INFO - Epoch [48/1000] (49) train_mae: 19.9747, val_mae: 19.4640, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,558 - model.pytorch.dcrnn_supervisor - INFO - Epoch [48/1000] (49) train_mae: 19.9747, test_mae: 21.7700,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,559 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 48
+2023-03-13 18:29:22,559 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 19.5333 to 19.4640, saving to week15_shuffled/models_seed6/epo48.tar
+2023-03-13 18:29:22,563 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,563 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,565 - model.pytorch.dcrnn_supervisor - INFO - Epoch [49/1000] (50) train_mae: 19.8680, val_mae: 19.3947, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,568 - model.pytorch.dcrnn_supervisor - INFO - Epoch [49/1000] (50) train_mae: 19.8680, test_mae: 21.6768,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,569 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 49
+2023-03-13 18:29:22,569 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 19.4640 to 19.3947, saving to week15_shuffled/models_seed6/epo49.tar
+2023-03-13 18:29:22,573 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,573 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,576 - model.pytorch.dcrnn_supervisor - INFO - Epoch [50/1000] (51) train_mae: 19.7625, val_mae: 19.3252, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,578 - model.pytorch.dcrnn_supervisor - INFO - Epoch [50/1000] (51) train_mae: 19.7625, test_mae: 21.5843,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,579 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 50
+2023-03-13 18:29:22,579 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 19.3947 to 19.3252, saving to week15_shuffled/models_seed6/epo50.tar
+2023-03-13 18:29:22,583 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,583 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,585 - model.pytorch.dcrnn_supervisor - INFO - Epoch [51/1000] (52) train_mae: 19.6575, val_mae: 19.2547, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,588 - model.pytorch.dcrnn_supervisor - INFO - Epoch [51/1000] (52) train_mae: 19.6575, test_mae: 21.4910,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,589 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 51
+2023-03-13 18:29:22,589 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 19.3252 to 19.2547, saving to week15_shuffled/models_seed6/epo51.tar
+2023-03-13 18:29:22,593 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,593 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,595 - model.pytorch.dcrnn_supervisor - INFO - Epoch [52/1000] (53) train_mae: 19.5529, val_mae: 19.1840, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,598 - model.pytorch.dcrnn_supervisor - INFO - Epoch [52/1000] (53) train_mae: 19.5529, test_mae: 21.3981,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,598 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 52
+2023-03-13 18:29:22,598 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 19.2547 to 19.1840, saving to week15_shuffled/models_seed6/epo52.tar
+2023-03-13 18:29:22,602 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,602 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,605 - model.pytorch.dcrnn_supervisor - INFO - Epoch [53/1000] (54) train_mae: 19.4481, val_mae: 19.1126, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,608 - model.pytorch.dcrnn_supervisor - INFO - Epoch [53/1000] (54) train_mae: 19.4481, test_mae: 21.3054,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,608 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 53
+2023-03-13 18:29:22,608 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 19.1840 to 19.1126, saving to week15_shuffled/models_seed6/epo53.tar
+2023-03-13 18:29:22,612 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,612 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,615 - model.pytorch.dcrnn_supervisor - INFO - Epoch [54/1000] (55) train_mae: 19.3448, val_mae: 19.0411, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,618 - model.pytorch.dcrnn_supervisor - INFO - Epoch [54/1000] (55) train_mae: 19.3448, test_mae: 21.2119,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,618 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 54
+2023-03-13 18:29:22,618 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 19.1126 to 19.0411, saving to week15_shuffled/models_seed6/epo54.tar
+2023-03-13 18:29:22,622 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,622 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,625 - model.pytorch.dcrnn_supervisor - INFO - Epoch [55/1000] (56) train_mae: 19.2432, val_mae: 18.9699, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,628 - model.pytorch.dcrnn_supervisor - INFO - Epoch [55/1000] (56) train_mae: 19.2432, test_mae: 21.1180,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,628 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 55
+2023-03-13 18:29:22,628 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 19.0411 to 18.9699, saving to week15_shuffled/models_seed6/epo55.tar
+2023-03-13 18:29:22,632 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,632 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,635 - model.pytorch.dcrnn_supervisor - INFO - Epoch [56/1000] (57) train_mae: 19.1423, val_mae: 18.8986, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,638 - model.pytorch.dcrnn_supervisor - INFO - Epoch [56/1000] (57) train_mae: 19.1423, test_mae: 21.0245,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,638 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 56
+2023-03-13 18:29:22,638 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.9699 to 18.8986, saving to week15_shuffled/models_seed6/epo56.tar
+2023-03-13 18:29:22,642 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,642 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,645 - model.pytorch.dcrnn_supervisor - INFO - Epoch [57/1000] (58) train_mae: 19.0426, val_mae: 18.8280, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,648 - model.pytorch.dcrnn_supervisor - INFO - Epoch [57/1000] (58) train_mae: 19.0426, test_mae: 20.9321,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,648 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 57
+2023-03-13 18:29:22,648 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.8986 to 18.8280, saving to week15_shuffled/models_seed6/epo57.tar
+2023-03-13 18:29:22,652 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,652 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,655 - model.pytorch.dcrnn_supervisor - INFO - Epoch [58/1000] (59) train_mae: 18.9436, val_mae: 18.7582, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,657 - model.pytorch.dcrnn_supervisor - INFO - Epoch [58/1000] (59) train_mae: 18.9436, test_mae: 20.8400,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,658 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 58
+2023-03-13 18:29:22,658 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.8280 to 18.7582, saving to week15_shuffled/models_seed6/epo58.tar
+2023-03-13 18:29:22,662 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,662 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,664 - model.pytorch.dcrnn_supervisor - INFO - Epoch [59/1000] (60) train_mae: 18.8447, val_mae: 18.6895, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,667 - model.pytorch.dcrnn_supervisor - INFO - Epoch [59/1000] (60) train_mae: 18.8447, test_mae: 20.7487,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,667 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 59
+2023-03-13 18:29:22,667 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.7582 to 18.6895, saving to week15_shuffled/models_seed6/epo59.tar
+2023-03-13 18:29:22,671 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,671 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,674 - model.pytorch.dcrnn_supervisor - INFO - Epoch [60/1000] (61) train_mae: 18.7473, val_mae: 18.6230, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,677 - model.pytorch.dcrnn_supervisor - INFO - Epoch [60/1000] (61) train_mae: 18.7473, test_mae: 20.6584,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,677 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 60
+2023-03-13 18:29:22,677 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.6895 to 18.6230, saving to week15_shuffled/models_seed6/epo60.tar
+2023-03-13 18:29:22,681 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,681 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,684 - model.pytorch.dcrnn_supervisor - INFO - Epoch [61/1000] (62) train_mae: 18.6523, val_mae: 18.5569, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,686 - model.pytorch.dcrnn_supervisor - INFO - Epoch [61/1000] (62) train_mae: 18.6523, test_mae: 20.5713,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,687 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 61
+2023-03-13 18:29:22,687 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.6230 to 18.5569, saving to week15_shuffled/models_seed6/epo61.tar
+2023-03-13 18:29:22,691 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,691 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,693 - model.pytorch.dcrnn_supervisor - INFO - Epoch [62/1000] (63) train_mae: 18.5576, val_mae: 18.4915, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,696 - model.pytorch.dcrnn_supervisor - INFO - Epoch [62/1000] (63) train_mae: 18.5576, test_mae: 20.4860,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,696 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 62
+2023-03-13 18:29:22,697 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.5569 to 18.4915, saving to week15_shuffled/models_seed6/epo62.tar
+2023-03-13 18:29:22,700 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,700 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,703 - model.pytorch.dcrnn_supervisor - INFO - Epoch [63/1000] (64) train_mae: 18.4639, val_mae: 18.4280, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,706 - model.pytorch.dcrnn_supervisor - INFO - Epoch [63/1000] (64) train_mae: 18.4639, test_mae: 20.4016,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,706 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 63
+2023-03-13 18:29:22,706 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.4915 to 18.4280, saving to week15_shuffled/models_seed6/epo63.tar
+2023-03-13 18:29:22,710 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,711 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,713 - model.pytorch.dcrnn_supervisor - INFO - Epoch [64/1000] (65) train_mae: 18.3709, val_mae: 18.3673, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,716 - model.pytorch.dcrnn_supervisor - INFO - Epoch [64/1000] (65) train_mae: 18.3709, test_mae: 20.3191,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,716 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 64
+2023-03-13 18:29:22,716 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.4280 to 18.3673, saving to week15_shuffled/models_seed6/epo64.tar
+2023-03-13 18:29:22,720 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,720 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,723 - model.pytorch.dcrnn_supervisor - INFO - Epoch [65/1000] (66) train_mae: 18.2786, val_mae: 18.3085, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,726 - model.pytorch.dcrnn_supervisor - INFO - Epoch [65/1000] (66) train_mae: 18.2786, test_mae: 20.2396,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,726 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 65
+2023-03-13 18:29:22,726 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.3673 to 18.3085, saving to week15_shuffled/models_seed6/epo65.tar
+2023-03-13 18:29:22,730 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,730 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,733 - model.pytorch.dcrnn_supervisor - INFO - Epoch [66/1000] (67) train_mae: 18.1875, val_mae: 18.2519, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,736 - model.pytorch.dcrnn_supervisor - INFO - Epoch [66/1000] (67) train_mae: 18.1875, test_mae: 20.1622,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,736 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 66
+2023-03-13 18:29:22,736 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.3085 to 18.2519, saving to week15_shuffled/models_seed6/epo66.tar
+2023-03-13 18:29:22,740 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,740 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,743 - model.pytorch.dcrnn_supervisor - INFO - Epoch [67/1000] (68) train_mae: 18.0968, val_mae: 18.1966, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,746 - model.pytorch.dcrnn_supervisor - INFO - Epoch [67/1000] (68) train_mae: 18.0968, test_mae: 20.0858,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,746 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 67
+2023-03-13 18:29:22,746 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.2519 to 18.1966, saving to week15_shuffled/models_seed6/epo67.tar
+2023-03-13 18:29:22,750 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,750 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,753 - model.pytorch.dcrnn_supervisor - INFO - Epoch [68/1000] (69) train_mae: 18.0061, val_mae: 18.1428, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,755 - model.pytorch.dcrnn_supervisor - INFO - Epoch [68/1000] (69) train_mae: 18.0061, test_mae: 20.0112,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,756 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 68
+2023-03-13 18:29:22,756 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.1966 to 18.1428, saving to week15_shuffled/models_seed6/epo68.tar
+2023-03-13 18:29:22,760 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,760 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,762 - model.pytorch.dcrnn_supervisor - INFO - Epoch [69/1000] (70) train_mae: 17.9161, val_mae: 18.0914, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,765 - model.pytorch.dcrnn_supervisor - INFO - Epoch [69/1000] (70) train_mae: 17.9161, test_mae: 19.9370,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,765 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 69
+2023-03-13 18:29:22,766 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.1428 to 18.0914, saving to week15_shuffled/models_seed6/epo69.tar
+2023-03-13 18:29:22,769 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,770 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,772 - model.pytorch.dcrnn_supervisor - INFO - Epoch [70/1000] (71) train_mae: 17.8268, val_mae: 18.0413, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,775 - model.pytorch.dcrnn_supervisor - INFO - Epoch [70/1000] (71) train_mae: 17.8268, test_mae: 19.8643,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,776 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 70
+2023-03-13 18:29:22,776 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.0914 to 18.0413, saving to week15_shuffled/models_seed6/epo70.tar
+2023-03-13 18:29:22,780 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,780 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,783 - model.pytorch.dcrnn_supervisor - INFO - Epoch [71/1000] (72) train_mae: 17.7397, val_mae: 17.9911, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,786 - model.pytorch.dcrnn_supervisor - INFO - Epoch [71/1000] (72) train_mae: 17.7397, test_mae: 19.7926,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,786 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 71
+2023-03-13 18:29:22,787 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 18.0413 to 17.9911, saving to week15_shuffled/models_seed6/epo71.tar
+2023-03-13 18:29:22,791 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,791 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,793 - model.pytorch.dcrnn_supervisor - INFO - Epoch [72/1000] (73) train_mae: 17.6542, val_mae: 17.9411, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,796 - model.pytorch.dcrnn_supervisor - INFO - Epoch [72/1000] (73) train_mae: 17.6542, test_mae: 19.7215,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,797 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 72
+2023-03-13 18:29:22,797 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.9911 to 17.9411, saving to week15_shuffled/models_seed6/epo72.tar
+2023-03-13 18:29:22,800 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,801 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,803 - model.pytorch.dcrnn_supervisor - INFO - Epoch [73/1000] (74) train_mae: 17.5697, val_mae: 17.8917, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,806 - model.pytorch.dcrnn_supervisor - INFO - Epoch [73/1000] (74) train_mae: 17.5697, test_mae: 19.6531,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,806 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 73
+2023-03-13 18:29:22,806 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.9411 to 17.8917, saving to week15_shuffled/models_seed6/epo73.tar
+2023-03-13 18:29:22,810 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,810 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,813 - model.pytorch.dcrnn_supervisor - INFO - Epoch [74/1000] (75) train_mae: 17.4873, val_mae: 17.8415, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,815 - model.pytorch.dcrnn_supervisor - INFO - Epoch [74/1000] (75) train_mae: 17.4873, test_mae: 19.5863,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,816 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 74
+2023-03-13 18:29:22,816 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.8917 to 17.8415, saving to week15_shuffled/models_seed6/epo74.tar
+2023-03-13 18:29:22,820 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,820 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,823 - model.pytorch.dcrnn_supervisor - INFO - Epoch [75/1000] (76) train_mae: 17.4064, val_mae: 17.7900, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,826 - model.pytorch.dcrnn_supervisor - INFO - Epoch [75/1000] (76) train_mae: 17.4064, test_mae: 19.5196,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,826 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 75
+2023-03-13 18:29:22,826 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.8415 to 17.7900, saving to week15_shuffled/models_seed6/epo75.tar
+2023-03-13 18:29:22,830 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,830 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,833 - model.pytorch.dcrnn_supervisor - INFO - Epoch [76/1000] (77) train_mae: 17.3266, val_mae: 17.7383, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,835 - model.pytorch.dcrnn_supervisor - INFO - Epoch [76/1000] (77) train_mae: 17.3266, test_mae: 19.4525,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,836 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 76
+2023-03-13 18:29:22,836 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.7900 to 17.7383, saving to week15_shuffled/models_seed6/epo76.tar
+2023-03-13 18:29:22,840 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,840 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,842 - model.pytorch.dcrnn_supervisor - INFO - Epoch [77/1000] (78) train_mae: 17.2487, val_mae: 17.6872, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,845 - model.pytorch.dcrnn_supervisor - INFO - Epoch [77/1000] (78) train_mae: 17.2487, test_mae: 19.3850,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,845 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 77
+2023-03-13 18:29:22,845 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.7383 to 17.6872, saving to week15_shuffled/models_seed6/epo77.tar
+2023-03-13 18:29:22,849 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,849 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,852 - model.pytorch.dcrnn_supervisor - INFO - Epoch [78/1000] (79) train_mae: 17.1726, val_mae: 17.6360, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,854 - model.pytorch.dcrnn_supervisor - INFO - Epoch [78/1000] (79) train_mae: 17.1726, test_mae: 19.3177,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,855 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 78
+2023-03-13 18:29:22,855 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.6872 to 17.6360, saving to week15_shuffled/models_seed6/epo78.tar
+2023-03-13 18:29:22,858 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,858 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,861 - model.pytorch.dcrnn_supervisor - INFO - Epoch [79/1000] (80) train_mae: 17.0966, val_mae: 17.5875, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,864 - model.pytorch.dcrnn_supervisor - INFO - Epoch [79/1000] (80) train_mae: 17.0966, test_mae: 19.2525,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,864 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 79
+2023-03-13 18:29:22,864 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.6360 to 17.5875, saving to week15_shuffled/models_seed6/epo79.tar
+2023-03-13 18:29:22,868 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,868 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,870 - model.pytorch.dcrnn_supervisor - INFO - Epoch [80/1000] (81) train_mae: 17.0211, val_mae: 17.5418, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,872 - model.pytorch.dcrnn_supervisor - INFO - Epoch [80/1000] (81) train_mae: 17.0211, test_mae: 19.1886,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,873 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 80
+2023-03-13 18:29:22,873 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.5875 to 17.5418, saving to week15_shuffled/models_seed6/epo80.tar
+2023-03-13 18:29:22,877 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,877 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,879 - model.pytorch.dcrnn_supervisor - INFO - Epoch [81/1000] (82) train_mae: 16.9469, val_mae: 17.4971, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,882 - model.pytorch.dcrnn_supervisor - INFO - Epoch [81/1000] (82) train_mae: 16.9469, test_mae: 19.1267,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,882 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 81
+2023-03-13 18:29:22,882 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.5418 to 17.4971, saving to week15_shuffled/models_seed6/epo81.tar
+2023-03-13 18:29:22,886 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,886 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,889 - model.pytorch.dcrnn_supervisor - INFO - Epoch [82/1000] (83) train_mae: 16.8744, val_mae: 17.4551, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,892 - model.pytorch.dcrnn_supervisor - INFO - Epoch [82/1000] (83) train_mae: 16.8744, test_mae: 19.0670,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,892 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 82
+2023-03-13 18:29:22,892 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.4971 to 17.4551, saving to week15_shuffled/models_seed6/epo82.tar
+2023-03-13 18:29:22,896 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,896 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,899 - model.pytorch.dcrnn_supervisor - INFO - Epoch [83/1000] (84) train_mae: 16.8046, val_mae: 17.4149, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,901 - model.pytorch.dcrnn_supervisor - INFO - Epoch [83/1000] (84) train_mae: 16.8046, test_mae: 19.0085,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,902 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 83
+2023-03-13 18:29:22,902 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.4551 to 17.4149, saving to week15_shuffled/models_seed6/epo83.tar
+2023-03-13 18:29:22,906 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,906 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,908 - model.pytorch.dcrnn_supervisor - INFO - Epoch [84/1000] (85) train_mae: 16.7366, val_mae: 17.3765, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,911 - model.pytorch.dcrnn_supervisor - INFO - Epoch [84/1000] (85) train_mae: 16.7366, test_mae: 18.9515,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,912 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 84
+2023-03-13 18:29:22,912 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.4149 to 17.3765, saving to week15_shuffled/models_seed6/epo84.tar
+2023-03-13 18:29:22,915 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,915 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,918 - model.pytorch.dcrnn_supervisor - INFO - Epoch [85/1000] (86) train_mae: 16.6700, val_mae: 17.3395, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,921 - model.pytorch.dcrnn_supervisor - INFO - Epoch [85/1000] (86) train_mae: 16.6700, test_mae: 18.8965,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,921 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 85
+2023-03-13 18:29:22,921 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.3765 to 17.3395, saving to week15_shuffled/models_seed6/epo85.tar
+2023-03-13 18:29:22,925 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,925 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,928 - model.pytorch.dcrnn_supervisor - INFO - Epoch [86/1000] (87) train_mae: 16.6048, val_mae: 17.3037, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,931 - model.pytorch.dcrnn_supervisor - INFO - Epoch [86/1000] (87) train_mae: 16.6048, test_mae: 18.8432,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,931 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 86
+2023-03-13 18:29:22,931 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.3395 to 17.3037, saving to week15_shuffled/models_seed6/epo86.tar
+2023-03-13 18:29:22,936 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,936 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,938 - model.pytorch.dcrnn_supervisor - INFO - Epoch [87/1000] (88) train_mae: 16.5414, val_mae: 17.2687, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,941 - model.pytorch.dcrnn_supervisor - INFO - Epoch [87/1000] (88) train_mae: 16.5414, test_mae: 18.7921,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,941 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 87
+2023-03-13 18:29:22,941 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.3037 to 17.2687, saving to week15_shuffled/models_seed6/epo87.tar
+2023-03-13 18:29:22,945 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,945 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,948 - model.pytorch.dcrnn_supervisor - INFO - Epoch [88/1000] (89) train_mae: 16.4794, val_mae: 17.2352, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,950 - model.pytorch.dcrnn_supervisor - INFO - Epoch [88/1000] (89) train_mae: 16.4794, test_mae: 18.7419,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,951 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 88
+2023-03-13 18:29:22,951 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.2687 to 17.2352, saving to week15_shuffled/models_seed6/epo88.tar
+2023-03-13 18:29:22,954 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,954 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,957 - model.pytorch.dcrnn_supervisor - INFO - Epoch [89/1000] (90) train_mae: 16.4193, val_mae: 17.2021, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,960 - model.pytorch.dcrnn_supervisor - INFO - Epoch [89/1000] (90) train_mae: 16.4193, test_mae: 18.6920,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,960 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 89
+2023-03-13 18:29:22,960 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.2352 to 17.2021, saving to week15_shuffled/models_seed6/epo89.tar
+2023-03-13 18:29:22,964 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,964 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,967 - model.pytorch.dcrnn_supervisor - INFO - Epoch [90/1000] (91) train_mae: 16.3604, val_mae: 17.1698, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,970 - model.pytorch.dcrnn_supervisor - INFO - Epoch [90/1000] (91) train_mae: 16.3604, test_mae: 18.6428,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,970 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 90
+2023-03-13 18:29:22,970 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.2021 to 17.1698, saving to week15_shuffled/models_seed6/epo90.tar
+2023-03-13 18:29:22,975 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,975 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,978 - model.pytorch.dcrnn_supervisor - INFO - Epoch [91/1000] (92) train_mae: 16.3046, val_mae: 17.1379, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,980 - model.pytorch.dcrnn_supervisor - INFO - Epoch [91/1000] (92) train_mae: 16.3046, test_mae: 18.5943,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,981 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 91
+2023-03-13 18:29:22,981 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.1698 to 17.1379, saving to week15_shuffled/models_seed6/epo91.tar
+2023-03-13 18:29:22,985 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,985 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,988 - model.pytorch.dcrnn_supervisor - INFO - Epoch [92/1000] (93) train_mae: 16.2501, val_mae: 17.1070, lr: 0.001000, 0.0s
+2023-03-13 18:29:22,991 - model.pytorch.dcrnn_supervisor - INFO - Epoch [92/1000] (93) train_mae: 16.2501, test_mae: 18.5490,  lr: 0.001000, 0.0s
+2023-03-13 18:29:22,991 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 92
+2023-03-13 18:29:22,992 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.1379 to 17.1070, saving to week15_shuffled/models_seed6/epo92.tar
+2023-03-13 18:29:22,996 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:22,996 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:22,999 - model.pytorch.dcrnn_supervisor - INFO - Epoch [93/1000] (94) train_mae: 16.1961, val_mae: 17.0782, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,001 - model.pytorch.dcrnn_supervisor - INFO - Epoch [93/1000] (94) train_mae: 16.1961, test_mae: 18.5061,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,002 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 93
+2023-03-13 18:29:23,002 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.1070 to 17.0782, saving to week15_shuffled/models_seed6/epo93.tar
+2023-03-13 18:29:23,006 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,006 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,009 - model.pytorch.dcrnn_supervisor - INFO - Epoch [94/1000] (95) train_mae: 16.1432, val_mae: 17.0511, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,011 - model.pytorch.dcrnn_supervisor - INFO - Epoch [94/1000] (95) train_mae: 16.1432, test_mae: 18.4650,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,012 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 94
+2023-03-13 18:29:23,012 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.0782 to 17.0511, saving to week15_shuffled/models_seed6/epo94.tar
+2023-03-13 18:29:23,016 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,016 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,019 - model.pytorch.dcrnn_supervisor - INFO - Epoch [95/1000] (96) train_mae: 16.0914, val_mae: 17.0246, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,021 - model.pytorch.dcrnn_supervisor - INFO - Epoch [95/1000] (96) train_mae: 16.0914, test_mae: 18.4256,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,022 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 95
+2023-03-13 18:29:23,022 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.0511 to 17.0246, saving to week15_shuffled/models_seed6/epo95.tar
+2023-03-13 18:29:23,026 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,026 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,029 - model.pytorch.dcrnn_supervisor - INFO - Epoch [96/1000] (97) train_mae: 16.0405, val_mae: 16.9995, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,031 - model.pytorch.dcrnn_supervisor - INFO - Epoch [96/1000] (97) train_mae: 16.0405, test_mae: 18.3867,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,032 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 96
+2023-03-13 18:29:23,032 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 17.0246 to 16.9995, saving to week15_shuffled/models_seed6/epo96.tar
+2023-03-13 18:29:23,036 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,036 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,039 - model.pytorch.dcrnn_supervisor - INFO - Epoch [97/1000] (98) train_mae: 15.9904, val_mae: 16.9751, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,041 - model.pytorch.dcrnn_supervisor - INFO - Epoch [97/1000] (98) train_mae: 15.9904, test_mae: 18.3498,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,042 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 97
+2023-03-13 18:29:23,042 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.9995 to 16.9751, saving to week15_shuffled/models_seed6/epo97.tar
+2023-03-13 18:29:23,046 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,046 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,049 - model.pytorch.dcrnn_supervisor - INFO - Epoch [98/1000] (99) train_mae: 15.9410, val_mae: 16.9525, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,052 - model.pytorch.dcrnn_supervisor - INFO - Epoch [98/1000] (99) train_mae: 15.9410, test_mae: 18.3147,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,053 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 98
+2023-03-13 18:29:23,053 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.9751 to 16.9525, saving to week15_shuffled/models_seed6/epo98.tar
+2023-03-13 18:29:23,057 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,057 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,060 - model.pytorch.dcrnn_supervisor - INFO - Epoch [99/1000] (100) train_mae: 15.8927, val_mae: 16.9307, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,062 - model.pytorch.dcrnn_supervisor - INFO - Epoch [99/1000] (100) train_mae: 15.8927, test_mae: 18.2800,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,063 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 99
+2023-03-13 18:29:23,063 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.9525 to 16.9307, saving to week15_shuffled/models_seed6/epo99.tar
+2023-03-13 18:29:23,067 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,067 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,070 - model.pytorch.dcrnn_supervisor - INFO - Epoch [100/1000] (101) train_mae: 15.8467, val_mae: 16.9087, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,072 - model.pytorch.dcrnn_supervisor - INFO - Epoch [100/1000] (101) train_mae: 15.8467, test_mae: 18.2451,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,073 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 100
+2023-03-13 18:29:23,073 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.9307 to 16.9087, saving to week15_shuffled/models_seed6/epo100.tar
+2023-03-13 18:29:23,077 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,077 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,080 - model.pytorch.dcrnn_supervisor - INFO - Epoch [101/1000] (102) train_mae: 15.8018, val_mae: 16.8864, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,082 - model.pytorch.dcrnn_supervisor - INFO - Epoch [101/1000] (102) train_mae: 15.8018, test_mae: 18.2105,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,083 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 101
+2023-03-13 18:29:23,083 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.9087 to 16.8864, saving to week15_shuffled/models_seed6/epo101.tar
+2023-03-13 18:29:23,087 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,087 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,090 - model.pytorch.dcrnn_supervisor - INFO - Epoch [102/1000] (103) train_mae: 15.7572, val_mae: 16.8634, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,092 - model.pytorch.dcrnn_supervisor - INFO - Epoch [102/1000] (103) train_mae: 15.7572, test_mae: 18.1749,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,093 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 102
+2023-03-13 18:29:23,093 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.8864 to 16.8634, saving to week15_shuffled/models_seed6/epo102.tar
+2023-03-13 18:29:23,097 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,097 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,099 - model.pytorch.dcrnn_supervisor - INFO - Epoch [103/1000] (104) train_mae: 15.7130, val_mae: 16.8397, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,102 - model.pytorch.dcrnn_supervisor - INFO - Epoch [103/1000] (104) train_mae: 15.7130, test_mae: 18.1386,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,102 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 103
+2023-03-13 18:29:23,102 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.8634 to 16.8397, saving to week15_shuffled/models_seed6/epo103.tar
+2023-03-13 18:29:23,107 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,107 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,109 - model.pytorch.dcrnn_supervisor - INFO - Epoch [104/1000] (105) train_mae: 15.6700, val_mae: 16.8159, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,112 - model.pytorch.dcrnn_supervisor - INFO - Epoch [104/1000] (105) train_mae: 15.6700, test_mae: 18.1020,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,112 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 104
+2023-03-13 18:29:23,112 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.8397 to 16.8159, saving to week15_shuffled/models_seed6/epo104.tar
+2023-03-13 18:29:23,116 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,116 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,119 - model.pytorch.dcrnn_supervisor - INFO - Epoch [105/1000] (106) train_mae: 15.6283, val_mae: 16.7926, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,122 - model.pytorch.dcrnn_supervisor - INFO - Epoch [105/1000] (106) train_mae: 15.6283, test_mae: 18.0665,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,122 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 105
+2023-03-13 18:29:23,122 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.8159 to 16.7926, saving to week15_shuffled/models_seed6/epo105.tar
+2023-03-13 18:29:23,126 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,126 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,129 - model.pytorch.dcrnn_supervisor - INFO - Epoch [106/1000] (107) train_mae: 15.5884, val_mae: 16.7705, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,131 - model.pytorch.dcrnn_supervisor - INFO - Epoch [106/1000] (107) train_mae: 15.5884, test_mae: 18.0324,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,132 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 106
+2023-03-13 18:29:23,132 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.7926 to 16.7705, saving to week15_shuffled/models_seed6/epo106.tar
+2023-03-13 18:29:23,135 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,135 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,138 - model.pytorch.dcrnn_supervisor - INFO - Epoch [107/1000] (108) train_mae: 15.5492, val_mae: 16.7492, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,141 - model.pytorch.dcrnn_supervisor - INFO - Epoch [107/1000] (108) train_mae: 15.5492, test_mae: 18.0003,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,141 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 107
+2023-03-13 18:29:23,141 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.7705 to 16.7492, saving to week15_shuffled/models_seed6/epo107.tar
+2023-03-13 18:29:23,145 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,145 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,148 - model.pytorch.dcrnn_supervisor - INFO - Epoch [108/1000] (109) train_mae: 15.5112, val_mae: 16.7284, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,150 - model.pytorch.dcrnn_supervisor - INFO - Epoch [108/1000] (109) train_mae: 15.5112, test_mae: 17.9686,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,151 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 108
+2023-03-13 18:29:23,151 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.7492 to 16.7284, saving to week15_shuffled/models_seed6/epo108.tar
+2023-03-13 18:29:23,154 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,154 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,157 - model.pytorch.dcrnn_supervisor - INFO - Epoch [109/1000] (110) train_mae: 15.4736, val_mae: 16.7082, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,159 - model.pytorch.dcrnn_supervisor - INFO - Epoch [109/1000] (110) train_mae: 15.4736, test_mae: 17.9373,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,160 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 109
+2023-03-13 18:29:23,160 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.7284 to 16.7082, saving to week15_shuffled/models_seed6/epo109.tar
+2023-03-13 18:29:23,163 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,163 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,166 - model.pytorch.dcrnn_supervisor - INFO - Epoch [110/1000] (111) train_mae: 15.4363, val_mae: 16.6881, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,168 - model.pytorch.dcrnn_supervisor - INFO - Epoch [110/1000] (111) train_mae: 15.4363, test_mae: 17.9062,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,169 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 110
+2023-03-13 18:29:23,169 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.7082 to 16.6881, saving to week15_shuffled/models_seed6/epo110.tar
+2023-03-13 18:29:23,173 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,173 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,175 - model.pytorch.dcrnn_supervisor - INFO - Epoch [111/1000] (112) train_mae: 15.4000, val_mae: 16.6682, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,178 - model.pytorch.dcrnn_supervisor - INFO - Epoch [111/1000] (112) train_mae: 15.4000, test_mae: 17.8754,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,179 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 111
+2023-03-13 18:29:23,179 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.6881 to 16.6682, saving to week15_shuffled/models_seed6/epo111.tar
+2023-03-13 18:29:23,183 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,183 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,186 - model.pytorch.dcrnn_supervisor - INFO - Epoch [112/1000] (113) train_mae: 15.3648, val_mae: 16.6487, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,188 - model.pytorch.dcrnn_supervisor - INFO - Epoch [112/1000] (113) train_mae: 15.3648, test_mae: 17.8450,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,189 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 112
+2023-03-13 18:29:23,189 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.6682 to 16.6487, saving to week15_shuffled/models_seed6/epo112.tar
+2023-03-13 18:29:23,193 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,193 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,195 - model.pytorch.dcrnn_supervisor - INFO - Epoch [113/1000] (114) train_mae: 15.3305, val_mae: 16.6300, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,198 - model.pytorch.dcrnn_supervisor - INFO - Epoch [113/1000] (114) train_mae: 15.3305, test_mae: 17.8155,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,198 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 113
+2023-03-13 18:29:23,198 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.6487 to 16.6300, saving to week15_shuffled/models_seed6/epo113.tar
+2023-03-13 18:29:23,202 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,202 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,205 - model.pytorch.dcrnn_supervisor - INFO - Epoch [114/1000] (115) train_mae: 15.2968, val_mae: 16.6108, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,207 - model.pytorch.dcrnn_supervisor - INFO - Epoch [114/1000] (115) train_mae: 15.2968, test_mae: 17.7861,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,208 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 114
+2023-03-13 18:29:23,208 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.6300 to 16.6108, saving to week15_shuffled/models_seed6/epo114.tar
+2023-03-13 18:29:23,212 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,212 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,215 - model.pytorch.dcrnn_supervisor - INFO - Epoch [115/1000] (116) train_mae: 15.2640, val_mae: 16.5914, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,217 - model.pytorch.dcrnn_supervisor - INFO - Epoch [115/1000] (116) train_mae: 15.2640, test_mae: 17.7569,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,218 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 115
+2023-03-13 18:29:23,218 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.6108 to 16.5914, saving to week15_shuffled/models_seed6/epo115.tar
+2023-03-13 18:29:23,222 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,222 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,225 - model.pytorch.dcrnn_supervisor - INFO - Epoch [116/1000] (117) train_mae: 15.2319, val_mae: 16.5718, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,227 - model.pytorch.dcrnn_supervisor - INFO - Epoch [116/1000] (117) train_mae: 15.2319, test_mae: 17.7272,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,228 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 116
+2023-03-13 18:29:23,228 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.5914 to 16.5718, saving to week15_shuffled/models_seed6/epo116.tar
+2023-03-13 18:29:23,231 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,231 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,234 - model.pytorch.dcrnn_supervisor - INFO - Epoch [117/1000] (118) train_mae: 15.2003, val_mae: 16.5523, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,237 - model.pytorch.dcrnn_supervisor - INFO - Epoch [117/1000] (118) train_mae: 15.2003, test_mae: 17.6971,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,237 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 117
+2023-03-13 18:29:23,237 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.5718 to 16.5523, saving to week15_shuffled/models_seed6/epo117.tar
+2023-03-13 18:29:23,241 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,241 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,244 - model.pytorch.dcrnn_supervisor - INFO - Epoch [118/1000] (119) train_mae: 15.1694, val_mae: 16.5324, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,247 - model.pytorch.dcrnn_supervisor - INFO - Epoch [118/1000] (119) train_mae: 15.1694, test_mae: 17.6667,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,247 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 118
+2023-03-13 18:29:23,247 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.5523 to 16.5324, saving to week15_shuffled/models_seed6/epo118.tar
+2023-03-13 18:29:23,251 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,252 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,254 - model.pytorch.dcrnn_supervisor - INFO - Epoch [119/1000] (120) train_mae: 15.1391, val_mae: 16.5119, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,257 - model.pytorch.dcrnn_supervisor - INFO - Epoch [119/1000] (120) train_mae: 15.1391, test_mae: 17.6361,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,258 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 119
+2023-03-13 18:29:23,258 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.5324 to 16.5119, saving to week15_shuffled/models_seed6/epo119.tar
+2023-03-13 18:29:23,262 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,262 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,264 - model.pytorch.dcrnn_supervisor - INFO - Epoch [120/1000] (121) train_mae: 15.1095, val_mae: 16.4916, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,267 - model.pytorch.dcrnn_supervisor - INFO - Epoch [120/1000] (121) train_mae: 15.1095, test_mae: 17.6056,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,268 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 120
+2023-03-13 18:29:23,268 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.5119 to 16.4916, saving to week15_shuffled/models_seed6/epo120.tar
+2023-03-13 18:29:23,271 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,271 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,274 - model.pytorch.dcrnn_supervisor - INFO - Epoch [121/1000] (122) train_mae: 15.0812, val_mae: 16.4718, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,277 - model.pytorch.dcrnn_supervisor - INFO - Epoch [121/1000] (122) train_mae: 15.0812, test_mae: 17.5755,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,277 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 121
+2023-03-13 18:29:23,277 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.4916 to 16.4718, saving to week15_shuffled/models_seed6/epo121.tar
+2023-03-13 18:29:23,281 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,281 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,283 - model.pytorch.dcrnn_supervisor - INFO - Epoch [122/1000] (123) train_mae: 15.0531, val_mae: 16.4529, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,286 - model.pytorch.dcrnn_supervisor - INFO - Epoch [122/1000] (123) train_mae: 15.0531, test_mae: 17.5464,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,286 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 122
+2023-03-13 18:29:23,286 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.4718 to 16.4529, saving to week15_shuffled/models_seed6/epo122.tar
+2023-03-13 18:29:23,290 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,290 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,293 - model.pytorch.dcrnn_supervisor - INFO - Epoch [123/1000] (124) train_mae: 15.0253, val_mae: 16.4343, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,295 - model.pytorch.dcrnn_supervisor - INFO - Epoch [123/1000] (124) train_mae: 15.0253, test_mae: 17.5187,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,296 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 123
+2023-03-13 18:29:23,296 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.4529 to 16.4343, saving to week15_shuffled/models_seed6/epo123.tar
+2023-03-13 18:29:23,299 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,299 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,302 - model.pytorch.dcrnn_supervisor - INFO - Epoch [124/1000] (125) train_mae: 14.9979, val_mae: 16.4157, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,305 - model.pytorch.dcrnn_supervisor - INFO - Epoch [124/1000] (125) train_mae: 14.9979, test_mae: 17.4916,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,305 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 124
+2023-03-13 18:29:23,305 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.4343 to 16.4157, saving to week15_shuffled/models_seed6/epo124.tar
+2023-03-13 18:29:23,309 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,309 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,311 - model.pytorch.dcrnn_supervisor - INFO - Epoch [125/1000] (126) train_mae: 14.9708, val_mae: 16.3974, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,314 - model.pytorch.dcrnn_supervisor - INFO - Epoch [125/1000] (126) train_mae: 14.9708, test_mae: 17.4646,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,314 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 125
+2023-03-13 18:29:23,314 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.4157 to 16.3974, saving to week15_shuffled/models_seed6/epo125.tar
+2023-03-13 18:29:23,318 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,318 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,320 - model.pytorch.dcrnn_supervisor - INFO - Epoch [126/1000] (127) train_mae: 14.9441, val_mae: 16.3799, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,323 - model.pytorch.dcrnn_supervisor - INFO - Epoch [126/1000] (127) train_mae: 14.9441, test_mae: 17.4376,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,323 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 126
+2023-03-13 18:29:23,323 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.3974 to 16.3799, saving to week15_shuffled/models_seed6/epo126.tar
+2023-03-13 18:29:23,327 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,327 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,330 - model.pytorch.dcrnn_supervisor - INFO - Epoch [127/1000] (128) train_mae: 14.9174, val_mae: 16.3621, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,333 - model.pytorch.dcrnn_supervisor - INFO - Epoch [127/1000] (128) train_mae: 14.9174, test_mae: 17.4107,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,333 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 127
+2023-03-13 18:29:23,333 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.3799 to 16.3621, saving to week15_shuffled/models_seed6/epo127.tar
+2023-03-13 18:29:23,337 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,337 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,340 - model.pytorch.dcrnn_supervisor - INFO - Epoch [128/1000] (129) train_mae: 14.8910, val_mae: 16.3441, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,342 - model.pytorch.dcrnn_supervisor - INFO - Epoch [128/1000] (129) train_mae: 14.8910, test_mae: 17.3845,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,343 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 128
+2023-03-13 18:29:23,343 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.3621 to 16.3441, saving to week15_shuffled/models_seed6/epo128.tar
+2023-03-13 18:29:23,347 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,347 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,350 - model.pytorch.dcrnn_supervisor - INFO - Epoch [129/1000] (130) train_mae: 14.8646, val_mae: 16.3259, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,352 - model.pytorch.dcrnn_supervisor - INFO - Epoch [129/1000] (130) train_mae: 14.8646, test_mae: 17.3590,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,353 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 129
+2023-03-13 18:29:23,353 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.3441 to 16.3259, saving to week15_shuffled/models_seed6/epo129.tar
+2023-03-13 18:29:23,357 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,357 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,360 - model.pytorch.dcrnn_supervisor - INFO - Epoch [130/1000] (131) train_mae: 14.8383, val_mae: 16.3077, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,362 - model.pytorch.dcrnn_supervisor - INFO - Epoch [130/1000] (131) train_mae: 14.8383, test_mae: 17.3343,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,363 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 130
+2023-03-13 18:29:23,363 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.3259 to 16.3077, saving to week15_shuffled/models_seed6/epo130.tar
+2023-03-13 18:29:23,367 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,367 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,370 - model.pytorch.dcrnn_supervisor - INFO - Epoch [131/1000] (132) train_mae: 14.8121, val_mae: 16.2896, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,372 - model.pytorch.dcrnn_supervisor - INFO - Epoch [131/1000] (132) train_mae: 14.8121, test_mae: 17.3104,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,373 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 131
+2023-03-13 18:29:23,373 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.3077 to 16.2896, saving to week15_shuffled/models_seed6/epo131.tar
+2023-03-13 18:29:23,377 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,377 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,380 - model.pytorch.dcrnn_supervisor - INFO - Epoch [132/1000] (133) train_mae: 14.7860, val_mae: 16.2722, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,382 - model.pytorch.dcrnn_supervisor - INFO - Epoch [132/1000] (133) train_mae: 14.7860, test_mae: 17.2874,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,383 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 132
+2023-03-13 18:29:23,383 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.2896 to 16.2722, saving to week15_shuffled/models_seed6/epo132.tar
+2023-03-13 18:29:23,387 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,387 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,389 - model.pytorch.dcrnn_supervisor - INFO - Epoch [133/1000] (134) train_mae: 14.7609, val_mae: 16.2555, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,392 - model.pytorch.dcrnn_supervisor - INFO - Epoch [133/1000] (134) train_mae: 14.7609, test_mae: 17.2658,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,393 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 133
+2023-03-13 18:29:23,393 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.2722 to 16.2555, saving to week15_shuffled/models_seed6/epo133.tar
+2023-03-13 18:29:23,397 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,397 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,400 - model.pytorch.dcrnn_supervisor - INFO - Epoch [134/1000] (135) train_mae: 14.7357, val_mae: 16.2393, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,402 - model.pytorch.dcrnn_supervisor - INFO - Epoch [134/1000] (135) train_mae: 14.7357, test_mae: 17.2449,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,403 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 134
+2023-03-13 18:29:23,403 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.2555 to 16.2393, saving to week15_shuffled/models_seed6/epo134.tar
+2023-03-13 18:29:23,407 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,407 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,410 - model.pytorch.dcrnn_supervisor - INFO - Epoch [135/1000] (136) train_mae: 14.7107, val_mae: 16.2229, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,412 - model.pytorch.dcrnn_supervisor - INFO - Epoch [135/1000] (136) train_mae: 14.7107, test_mae: 17.2239,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,413 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 135
+2023-03-13 18:29:23,413 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.2393 to 16.2229, saving to week15_shuffled/models_seed6/epo135.tar
+2023-03-13 18:29:23,417 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,417 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,420 - model.pytorch.dcrnn_supervisor - INFO - Epoch [136/1000] (137) train_mae: 14.6857, val_mae: 16.2062, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,422 - model.pytorch.dcrnn_supervisor - INFO - Epoch [136/1000] (137) train_mae: 14.6857, test_mae: 17.2023,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,423 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 136
+2023-03-13 18:29:23,423 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.2229 to 16.2062, saving to week15_shuffled/models_seed6/epo136.tar
+2023-03-13 18:29:23,427 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,427 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,430 - model.pytorch.dcrnn_supervisor - INFO - Epoch [137/1000] (138) train_mae: 14.6606, val_mae: 16.1892, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,432 - model.pytorch.dcrnn_supervisor - INFO - Epoch [137/1000] (138) train_mae: 14.6606, test_mae: 17.1802,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,433 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 137
+2023-03-13 18:29:23,433 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.2062 to 16.1892, saving to week15_shuffled/models_seed6/epo137.tar
+2023-03-13 18:29:23,437 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,437 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,440 - model.pytorch.dcrnn_supervisor - INFO - Epoch [138/1000] (139) train_mae: 14.6358, val_mae: 16.1722, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,442 - model.pytorch.dcrnn_supervisor - INFO - Epoch [138/1000] (139) train_mae: 14.6358, test_mae: 17.1579,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,443 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 138
+2023-03-13 18:29:23,443 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.1892 to 16.1722, saving to week15_shuffled/models_seed6/epo138.tar
+2023-03-13 18:29:23,447 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,447 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,450 - model.pytorch.dcrnn_supervisor - INFO - Epoch [139/1000] (140) train_mae: 14.6113, val_mae: 16.1556, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,452 - model.pytorch.dcrnn_supervisor - INFO - Epoch [139/1000] (140) train_mae: 14.6113, test_mae: 17.1359,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,453 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 139
+2023-03-13 18:29:23,453 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.1722 to 16.1556, saving to week15_shuffled/models_seed6/epo139.tar
+2023-03-13 18:29:23,456 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,456 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,459 - model.pytorch.dcrnn_supervisor - INFO - Epoch [140/1000] (141) train_mae: 14.5875, val_mae: 16.1393, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,462 - model.pytorch.dcrnn_supervisor - INFO - Epoch [140/1000] (141) train_mae: 14.5875, test_mae: 17.1152,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,462 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 140
+2023-03-13 18:29:23,462 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.1556 to 16.1393, saving to week15_shuffled/models_seed6/epo140.tar
+2023-03-13 18:29:23,466 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,466 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,469 - model.pytorch.dcrnn_supervisor - INFO - Epoch [141/1000] (142) train_mae: 14.5639, val_mae: 16.1234, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,471 - model.pytorch.dcrnn_supervisor - INFO - Epoch [141/1000] (142) train_mae: 14.5639, test_mae: 17.0948,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,472 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 141
+2023-03-13 18:29:23,472 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.1393 to 16.1234, saving to week15_shuffled/models_seed6/epo141.tar
+2023-03-13 18:29:23,476 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,476 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,479 - model.pytorch.dcrnn_supervisor - INFO - Epoch [142/1000] (143) train_mae: 14.5403, val_mae: 16.1072, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,481 - model.pytorch.dcrnn_supervisor - INFO - Epoch [142/1000] (143) train_mae: 14.5403, test_mae: 17.0749,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,482 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 142
+2023-03-13 18:29:23,482 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.1234 to 16.1072, saving to week15_shuffled/models_seed6/epo142.tar
+2023-03-13 18:29:23,486 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,486 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,488 - model.pytorch.dcrnn_supervisor - INFO - Epoch [143/1000] (144) train_mae: 14.5169, val_mae: 16.0904, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,491 - model.pytorch.dcrnn_supervisor - INFO - Epoch [143/1000] (144) train_mae: 14.5169, test_mae: 17.0552,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,491 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 143
+2023-03-13 18:29:23,491 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.1072 to 16.0904, saving to week15_shuffled/models_seed6/epo143.tar
+2023-03-13 18:29:23,495 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,495 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,498 - model.pytorch.dcrnn_supervisor - INFO - Epoch [144/1000] (145) train_mae: 14.4933, val_mae: 16.0732, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,501 - model.pytorch.dcrnn_supervisor - INFO - Epoch [144/1000] (145) train_mae: 14.4933, test_mae: 17.0357,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,501 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 144
+2023-03-13 18:29:23,501 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.0904 to 16.0732, saving to week15_shuffled/models_seed6/epo144.tar
+2023-03-13 18:29:23,506 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,506 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,509 - model.pytorch.dcrnn_supervisor - INFO - Epoch [145/1000] (146) train_mae: 14.4698, val_mae: 16.0554, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,511 - model.pytorch.dcrnn_supervisor - INFO - Epoch [145/1000] (146) train_mae: 14.4698, test_mae: 17.0166,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,512 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 145
+2023-03-13 18:29:23,512 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.0732 to 16.0554, saving to week15_shuffled/models_seed6/epo145.tar
+2023-03-13 18:29:23,516 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,516 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,519 - model.pytorch.dcrnn_supervisor - INFO - Epoch [146/1000] (147) train_mae: 14.4461, val_mae: 16.0369, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,521 - model.pytorch.dcrnn_supervisor - INFO - Epoch [146/1000] (147) train_mae: 14.4461, test_mae: 16.9974,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,522 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 146
+2023-03-13 18:29:23,522 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.0554 to 16.0369, saving to week15_shuffled/models_seed6/epo146.tar
+2023-03-13 18:29:23,526 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,526 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,529 - model.pytorch.dcrnn_supervisor - INFO - Epoch [147/1000] (148) train_mae: 14.4226, val_mae: 16.0182, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,531 - model.pytorch.dcrnn_supervisor - INFO - Epoch [147/1000] (148) train_mae: 14.4226, test_mae: 16.9773,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,532 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 147
+2023-03-13 18:29:23,532 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.0369 to 16.0182, saving to week15_shuffled/models_seed6/epo147.tar
+2023-03-13 18:29:23,536 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,536 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,539 - model.pytorch.dcrnn_supervisor - INFO - Epoch [148/1000] (149) train_mae: 14.3991, val_mae: 15.9990, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,542 - model.pytorch.dcrnn_supervisor - INFO - Epoch [148/1000] (149) train_mae: 14.3991, test_mae: 16.9564,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,542 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 148
+2023-03-13 18:29:23,542 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 16.0182 to 15.9990, saving to week15_shuffled/models_seed6/epo148.tar
+2023-03-13 18:29:23,546 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,546 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,549 - model.pytorch.dcrnn_supervisor - INFO - Epoch [149/1000] (150) train_mae: 14.3754, val_mae: 15.9792, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,552 - model.pytorch.dcrnn_supervisor - INFO - Epoch [149/1000] (150) train_mae: 14.3754, test_mae: 16.9353,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,552 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 149
+2023-03-13 18:29:23,552 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.9990 to 15.9792, saving to week15_shuffled/models_seed6/epo149.tar
+2023-03-13 18:29:23,556 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,556 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,559 - model.pytorch.dcrnn_supervisor - INFO - Epoch [150/1000] (151) train_mae: 14.3513, val_mae: 15.9593, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,562 - model.pytorch.dcrnn_supervisor - INFO - Epoch [150/1000] (151) train_mae: 14.3513, test_mae: 16.9134,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,562 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 150
+2023-03-13 18:29:23,562 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.9792 to 15.9593, saving to week15_shuffled/models_seed6/epo150.tar
+2023-03-13 18:29:23,566 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,566 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,569 - model.pytorch.dcrnn_supervisor - INFO - Epoch [151/1000] (152) train_mae: 14.3270, val_mae: 15.9390, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,571 - model.pytorch.dcrnn_supervisor - INFO - Epoch [151/1000] (152) train_mae: 14.3270, test_mae: 16.8924,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,572 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 151
+2023-03-13 18:29:23,572 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.9593 to 15.9390, saving to week15_shuffled/models_seed6/epo151.tar
+2023-03-13 18:29:23,576 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,576 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,578 - model.pytorch.dcrnn_supervisor - INFO - Epoch [152/1000] (153) train_mae: 14.3024, val_mae: 15.9177, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,581 - model.pytorch.dcrnn_supervisor - INFO - Epoch [152/1000] (153) train_mae: 14.3024, test_mae: 16.8728,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,581 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 152
+2023-03-13 18:29:23,581 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.9390 to 15.9177, saving to week15_shuffled/models_seed6/epo152.tar
+2023-03-13 18:29:23,585 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,585 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,587 - model.pytorch.dcrnn_supervisor - INFO - Epoch [153/1000] (154) train_mae: 14.2774, val_mae: 15.8961, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,590 - model.pytorch.dcrnn_supervisor - INFO - Epoch [153/1000] (154) train_mae: 14.2774, test_mae: 16.8550,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,590 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 153
+2023-03-13 18:29:23,590 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.9177 to 15.8961, saving to week15_shuffled/models_seed6/epo153.tar
+2023-03-13 18:29:23,594 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,594 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,597 - model.pytorch.dcrnn_supervisor - INFO - Epoch [154/1000] (155) train_mae: 14.2524, val_mae: 15.8765, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,599 - model.pytorch.dcrnn_supervisor - INFO - Epoch [154/1000] (155) train_mae: 14.2524, test_mae: 16.8359,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,600 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 154
+2023-03-13 18:29:23,600 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.8961 to 15.8765, saving to week15_shuffled/models_seed6/epo154.tar
+2023-03-13 18:29:23,603 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,604 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,606 - model.pytorch.dcrnn_supervisor - INFO - Epoch [155/1000] (156) train_mae: 14.2271, val_mae: 15.8585, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,609 - model.pytorch.dcrnn_supervisor - INFO - Epoch [155/1000] (156) train_mae: 14.2271, test_mae: 16.8154,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,610 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 155
+2023-03-13 18:29:23,610 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.8765 to 15.8585, saving to week15_shuffled/models_seed6/epo155.tar
+2023-03-13 18:29:23,613 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,614 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,616 - model.pytorch.dcrnn_supervisor - INFO - Epoch [156/1000] (157) train_mae: 14.2014, val_mae: 15.8406, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,619 - model.pytorch.dcrnn_supervisor - INFO - Epoch [156/1000] (157) train_mae: 14.2014, test_mae: 16.7956,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,619 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 156
+2023-03-13 18:29:23,619 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.8585 to 15.8406, saving to week15_shuffled/models_seed6/epo156.tar
+2023-03-13 18:29:23,623 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,623 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,626 - model.pytorch.dcrnn_supervisor - INFO - Epoch [157/1000] (158) train_mae: 14.1753, val_mae: 15.8230, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,629 - model.pytorch.dcrnn_supervisor - INFO - Epoch [157/1000] (158) train_mae: 14.1753, test_mae: 16.7765,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,629 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 157
+2023-03-13 18:29:23,629 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.8406 to 15.8230, saving to week15_shuffled/models_seed6/epo157.tar
+2023-03-13 18:29:23,633 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,633 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,636 - model.pytorch.dcrnn_supervisor - INFO - Epoch [158/1000] (159) train_mae: 14.1488, val_mae: 15.8045, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,639 - model.pytorch.dcrnn_supervisor - INFO - Epoch [158/1000] (159) train_mae: 14.1488, test_mae: 16.7586,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,639 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 158
+2023-03-13 18:29:23,639 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.8230 to 15.8045, saving to week15_shuffled/models_seed6/epo158.tar
+2023-03-13 18:29:23,643 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,643 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,646 - model.pytorch.dcrnn_supervisor - INFO - Epoch [159/1000] (160) train_mae: 14.1217, val_mae: 15.7864, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,649 - model.pytorch.dcrnn_supervisor - INFO - Epoch [159/1000] (160) train_mae: 14.1217, test_mae: 16.7413,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,649 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 159
+2023-03-13 18:29:23,649 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.8045 to 15.7864, saving to week15_shuffled/models_seed6/epo159.tar
+2023-03-13 18:29:23,653 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,653 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,656 - model.pytorch.dcrnn_supervisor - INFO - Epoch [160/1000] (161) train_mae: 14.0942, val_mae: 15.7694, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,659 - model.pytorch.dcrnn_supervisor - INFO - Epoch [160/1000] (161) train_mae: 14.0942, test_mae: 16.7234,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,659 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 160
+2023-03-13 18:29:23,659 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.7864 to 15.7694, saving to week15_shuffled/models_seed6/epo160.tar
+2023-03-13 18:29:23,663 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,663 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,666 - model.pytorch.dcrnn_supervisor - INFO - Epoch [161/1000] (162) train_mae: 14.0662, val_mae: 15.7559, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,669 - model.pytorch.dcrnn_supervisor - INFO - Epoch [161/1000] (162) train_mae: 14.0662, test_mae: 16.7036,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,669 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 161
+2023-03-13 18:29:23,669 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.7694 to 15.7559, saving to week15_shuffled/models_seed6/epo161.tar
+2023-03-13 18:29:23,673 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,673 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,676 - model.pytorch.dcrnn_supervisor - INFO - Epoch [162/1000] (163) train_mae: 14.0377, val_mae: 15.7501, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,678 - model.pytorch.dcrnn_supervisor - INFO - Epoch [162/1000] (163) train_mae: 14.0377, test_mae: 16.6837,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,679 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 162
+2023-03-13 18:29:23,679 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.7559 to 15.7501, saving to week15_shuffled/models_seed6/epo162.tar
+2023-03-13 18:29:23,683 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,683 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,686 - model.pytorch.dcrnn_supervisor - INFO - Epoch [163/1000] (164) train_mae: 14.0086, val_mae: 15.7398, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,688 - model.pytorch.dcrnn_supervisor - INFO - Epoch [163/1000] (164) train_mae: 14.0086, test_mae: 16.6663,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,689 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 163
+2023-03-13 18:29:23,689 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.7501 to 15.7398, saving to week15_shuffled/models_seed6/epo163.tar
+2023-03-13 18:29:23,693 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,693 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,696 - model.pytorch.dcrnn_supervisor - INFO - Epoch [164/1000] (165) train_mae: 13.9790, val_mae: 15.7243, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,698 - model.pytorch.dcrnn_supervisor - INFO - Epoch [164/1000] (165) train_mae: 13.9790, test_mae: 16.6500,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,699 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 164
+2023-03-13 18:29:23,699 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.7398 to 15.7243, saving to week15_shuffled/models_seed6/epo164.tar
+2023-03-13 18:29:23,703 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,703 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,705 - model.pytorch.dcrnn_supervisor - INFO - Epoch [165/1000] (166) train_mae: 13.9485, val_mae: 15.7123, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,708 - model.pytorch.dcrnn_supervisor - INFO - Epoch [165/1000] (166) train_mae: 13.9485, test_mae: 16.6341,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,708 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 165
+2023-03-13 18:29:23,708 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.7243 to 15.7123, saving to week15_shuffled/models_seed6/epo165.tar
+2023-03-13 18:29:23,712 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,712 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,715 - model.pytorch.dcrnn_supervisor - INFO - Epoch [166/1000] (167) train_mae: 13.9177, val_mae: 15.7014, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,717 - model.pytorch.dcrnn_supervisor - INFO - Epoch [166/1000] (167) train_mae: 13.9177, test_mae: 16.6190,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,718 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 166
+2023-03-13 18:29:23,718 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.7123 to 15.7014, saving to week15_shuffled/models_seed6/epo166.tar
+2023-03-13 18:29:23,722 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,722 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,724 - model.pytorch.dcrnn_supervisor - INFO - Epoch [167/1000] (168) train_mae: 13.8875, val_mae: 15.6894, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,727 - model.pytorch.dcrnn_supervisor - INFO - Epoch [167/1000] (168) train_mae: 13.8875, test_mae: 16.6040,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,727 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 167
+2023-03-13 18:29:23,727 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.7014 to 15.6894, saving to week15_shuffled/models_seed6/epo167.tar
+2023-03-13 18:29:23,731 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,731 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,733 - model.pytorch.dcrnn_supervisor - INFO - Epoch [168/1000] (169) train_mae: 13.8572, val_mae: 15.6765, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,736 - model.pytorch.dcrnn_supervisor - INFO - Epoch [168/1000] (169) train_mae: 13.8572, test_mae: 16.5880,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,737 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 168
+2023-03-13 18:29:23,737 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.6894 to 15.6765, saving to week15_shuffled/models_seed6/epo168.tar
+2023-03-13 18:29:23,740 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,740 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,743 - model.pytorch.dcrnn_supervisor - INFO - Epoch [169/1000] (170) train_mae: 13.8268, val_mae: 15.6637, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,746 - model.pytorch.dcrnn_supervisor - INFO - Epoch [169/1000] (170) train_mae: 13.8268, test_mae: 16.5712,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,746 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 169
+2023-03-13 18:29:23,746 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.6765 to 15.6637, saving to week15_shuffled/models_seed6/epo169.tar
+2023-03-13 18:29:23,750 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,750 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,752 - model.pytorch.dcrnn_supervisor - INFO - Epoch [170/1000] (171) train_mae: 13.7960, val_mae: 15.6534, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,755 - model.pytorch.dcrnn_supervisor - INFO - Epoch [170/1000] (171) train_mae: 13.7960, test_mae: 16.5533,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,756 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 170
+2023-03-13 18:29:23,756 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.6637 to 15.6534, saving to week15_shuffled/models_seed6/epo170.tar
+2023-03-13 18:29:23,759 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,760 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,762 - model.pytorch.dcrnn_supervisor - INFO - Epoch [171/1000] (172) train_mae: 13.7651, val_mae: 15.6459, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,765 - model.pytorch.dcrnn_supervisor - INFO - Epoch [171/1000] (172) train_mae: 13.7651, test_mae: 16.5346,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,765 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 171
+2023-03-13 18:29:23,765 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.6534 to 15.6459, saving to week15_shuffled/models_seed6/epo171.tar
+2023-03-13 18:29:23,769 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,769 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,772 - model.pytorch.dcrnn_supervisor - INFO - Epoch [172/1000] (173) train_mae: 13.7339, val_mae: 15.6407, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,775 - model.pytorch.dcrnn_supervisor - INFO - Epoch [172/1000] (173) train_mae: 13.7339, test_mae: 16.5149,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,775 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 172
+2023-03-13 18:29:23,775 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.6459 to 15.6407, saving to week15_shuffled/models_seed6/epo172.tar
+2023-03-13 18:29:23,779 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,779 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,782 - model.pytorch.dcrnn_supervisor - INFO - Epoch [173/1000] (174) train_mae: 13.7027, val_mae: 15.6362, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,785 - model.pytorch.dcrnn_supervisor - INFO - Epoch [173/1000] (174) train_mae: 13.7027, test_mae: 16.4950,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,785 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 173
+2023-03-13 18:29:23,785 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.6407 to 15.6362, saving to week15_shuffled/models_seed6/epo173.tar
+2023-03-13 18:29:23,789 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,789 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,792 - model.pytorch.dcrnn_supervisor - INFO - Epoch [174/1000] (175) train_mae: 13.6719, val_mae: 15.6295, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,795 - model.pytorch.dcrnn_supervisor - INFO - Epoch [174/1000] (175) train_mae: 13.6719, test_mae: 16.4750,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,795 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 174
+2023-03-13 18:29:23,795 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.6362 to 15.6295, saving to week15_shuffled/models_seed6/epo174.tar
+2023-03-13 18:29:23,799 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,799 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,802 - model.pytorch.dcrnn_supervisor - INFO - Epoch [175/1000] (176) train_mae: 13.6413, val_mae: 15.6136, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,804 - model.pytorch.dcrnn_supervisor - INFO - Epoch [175/1000] (176) train_mae: 13.6413, test_mae: 16.4581,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,805 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 175
+2023-03-13 18:29:23,805 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.6295 to 15.6136, saving to week15_shuffled/models_seed6/epo175.tar
+2023-03-13 18:29:23,809 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,809 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,812 - model.pytorch.dcrnn_supervisor - INFO - Epoch [176/1000] (177) train_mae: 13.6112, val_mae: 15.6018, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,814 - model.pytorch.dcrnn_supervisor - INFO - Epoch [176/1000] (177) train_mae: 13.6112, test_mae: 16.4413,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,815 - model.pytorch.dcrnn_supervisor - INFO - Saved model at 176
+2023-03-13 18:29:23,815 - model.pytorch.dcrnn_supervisor - INFO - Val loss decrease from 15.6136 to 15.6018, saving to week15_shuffled/models_seed6/epo176.tar
+2023-03-13 18:29:23,819 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,819 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,821 - model.pytorch.dcrnn_supervisor - INFO - Epoch [177/1000] (178) train_mae: 13.5818, val_mae: 15.6029, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,824 - model.pytorch.dcrnn_supervisor - INFO - Epoch [177/1000] (178) train_mae: 13.5818, test_mae: 16.4193,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,828 - model.pytorch.dcrnn_supervisor - INFO - epoch complete
+2023-03-13 18:29:23,828 - model.pytorch.dcrnn_supervisor - INFO - evaluating now!
+2023-03-13 18:29:23,831 - model.pytorch.dcrnn_supervisor - INFO - Epoch [178/1000] (179) train_mae: 13.5522, val_mae: 15.6113, lr: 0.001000, 0.0s
+2023-03-13 18:29:23,834 - model.pytorch.dcrnn_supervisor - INFO - Epoch [178/1000] (179) train_mae: 13.5522, test_mae: 16.3976,  lr: 0.001000, 0.0s
+2023-03-13 18:29:23,834 - model.pytorch.dcrnn_supervisor - WARNING - Early stopping at epoch: 178
